@@ -15224,12 +15224,6 @@ body {
   -webkit-touch-callout: none;
   -moz-user-select: none; }
 
-.clear {
-  clear: both;
-  height: 0;
-  font-size: 1px;
-  line-height: 0px; }
-
 img {
   display: block;
   max-width: 100%;
@@ -15589,6 +15583,9 @@ input::placeholder, textarea::placeholder {
         -ms-flex-align: center;
             align-items: center; }
     .footer-toggler-icon {
+      text-indent: -9999px;
+      overflow: hidden;
+      white-space: nowrap;
       width: 30px;
       height: 30px;
       background: url("../images/ic-minus.svg"); }
@@ -15663,7 +15660,10 @@ input::placeholder, textarea::placeholder {
             flex-direction: column;
     position: fixed;
     right: 16px;
-    bottom: 80px; }
+    bottom: 30px; }
+    @media (max-width: 576px) {
+      .footer-function {
+        bottom: 80px; } }
     .footer-function-link {
       width: 60px;
       height: 60px;
