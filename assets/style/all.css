@@ -15370,7 +15370,7 @@ input::placeholder, textarea::placeholder {
           -ms-flex-pack: center;
               justify-content: center;
       color: #adb5bd;
-      padding: 8px 0;
+      padding: 8px;
       font-size: 0.9rem; }
       .navbar-mobile-link.active {
         color: #008179; }
