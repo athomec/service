@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="ic-apply" transform="translate(0 0.494)">
+    <rect id="Rectangle_264" data-name="Rectangle 264" width="22" height="22" transform="translate(0 -0.494)" fill="none"/>
+    <g id="journal-arrow-up" transform="translate(1.987 1.92)">
+      <path id="Path_111" data-name="Path 111" d="M8.338,11.81a.568.568,0,0,0,.568-.568V6.938l1.3,1.3a.568.568,0,0,0,.8-.8L8.74,5.166a.568.568,0,0,0-.8,0l-2.27,2.27a.568.568,0,0,0,.8.8l1.3-1.3v4.305A.568.568,0,0,0,8.338,11.81Z" transform="translate(0.743 0.675)" fill="#999" stroke="#999" stroke-width="0.5" fill-rule="evenodd"/>
+      <path id="Path_112" data-name="Path 112" d="M3.27,0H14.621a2.27,2.27,0,0,1,2.27,2.27V15.891a2.27,2.27,0,0,1-2.27,2.27H3.27A2.27,2.27,0,0,1,1,15.891V14.756H2.135v1.135A1.135,1.135,0,0,0,3.27,17.026H14.621a1.135,1.135,0,0,0,1.135-1.135V2.27a1.135,1.135,0,0,0-1.135-1.135H3.27A1.135,1.135,0,0,0,2.135,2.27V3.405H1V2.27A2.27,2.27,0,0,1,3.27,0Z" transform="translate(0.135)" fill="#999" stroke="#999" stroke-width="0.5"/>
+      <path id="Path_113" data-name="Path 113" d="M1.135,5.135V4.568a.568.568,0,1,1,1.135,0v.568h.568a.568.568,0,1,1,0,1.135H.568a.568.568,0,0,1,0-1.135Zm0,3.405V7.973a.568.568,0,1,1,1.135,0V8.54h.568a.568.568,0,1,1,0,1.135H.568a.568.568,0,0,1,0-1.135Zm0,3.405v-.568a.568.568,0,1,1,1.135,0v.568h.568a.568.568,0,1,1,0,1.135H.568a.568.568,0,0,1,0-1.135Z" transform="translate(0 0.54)" fill="#999" stroke="#999" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

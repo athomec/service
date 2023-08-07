@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+  <g id="ic-office" transform="translate(0 0.288)">
+    <g id="Group_1" data-name="Group 1" transform="translate(0 -0.288)">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="74" height="74" fill="none"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(4 9.712)">
+      <g id="Group_2" data-name="Group 2">
+        <path id="Path_30" data-name="Path 30" d="M1,21.1v30.2H19.118V36.2h6.039v15.1H43.274V21.1L22.137,6ZM37.235,45.255H31.2v-15.1H13.078v15.1H7.039V24.208l15.1-10.78,15.1,10.78Z" transform="translate(-1 3.059)" fill="#008179"/>
+        <rect id="Rectangle_18" data-name="Rectangle 18" width="6" height="6" transform="translate(47.98 11.941)" fill="#008179"/>
+        <rect id="Rectangle_19" data-name="Rectangle 19" width="6" height="6" transform="translate(47.98 23.941)" fill="#008179"/>
+        <rect id="Rectangle_20" data-name="Rectangle 20" width="6" height="6" transform="translate(47.98 35.941)" fill="#008179"/>
+        <path id="Path_31" data-name="Path 31" d="M10,3V8.949l6.039,4.318V9.039H43.216V51.314H31.137v6.039H49.255V3Z" transform="translate(17.176 -3)" fill="#008179"/>
+      </g>
+    </g>
+  </g>
+</svg>

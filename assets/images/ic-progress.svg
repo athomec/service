@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="ic-progress" transform="translate(0 0.494)">
+    <g id="Group_261" data-name="Group 261">
+      <rect id="Rectangle_268" data-name="Rectangle 268" width="22" height="22" transform="translate(0 -0.494)" fill="none"/>
+    </g>
+    <g id="Group_263" data-name="Group 263" transform="translate(1.678 1.678)">
+      <g id="Group_262" data-name="Group 262">
+        <path id="Path_114" data-name="Path 114" d="M11.286,8.179v5.179l4.4,2.61.8-1.326-3.646-2.165v-4.3ZM21.643,10.25V3L18.909,5.734a9.316,9.316,0,1,0,2.734,6.587H19.572a7.249,7.249,0,1,1-2.123-5.127L14.393,10.25Z" transform="translate(-3 -3)" fill="#999"/>
+      </g>
+    </g>
+  </g>
+</svg>

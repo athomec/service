@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+  <g id="ic-reservaion" transform="translate(0 0.288)">
+    <rect id="Rectangle_21" data-name="Rectangle 21" width="74" height="74" transform="translate(0 -0.288)" fill="none"/>
+    <path id="Path_32" data-name="Path 32" d="M27.471,56.566H8.969V26.252h41.78V39.59l5.969-6.063v-19.4a6.034,6.034,0,0,0-5.969-6.063H47.764V2H41.8V8.063H17.921V2H11.953V8.063H8.969A6.034,6.034,0,0,0,3,14.126v42.44a6.034,6.034,0,0,0,5.969,6.063H33.44Zm-18.5-42.44h41.78v6.063H8.969ZM43.288,64.145,32.843,53.535l4.178-4.244,6.267,6.366L55.822,42.924,60,47.169ZM22.1,39.287H15.236V32.314H22.1Zm0,11.519H15.236V43.834H22.1ZM33.44,39.287H26.576V32.314H33.44Zm11.639,0H38.215V32.314h6.864Z" transform="translate(6 3.712)" fill="#008179"/>
+  </g>
+</svg>

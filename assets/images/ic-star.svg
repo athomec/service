@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.713" height="32.713" viewBox="0 0 32.713 32.713">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="32.713" height="32.713" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ic-star" clip-path="url(#clip-path)">
+    <g id="ic-star-2" data-name="ic-star">
+      <path id="Path_40" data-name="Path 40" d="M0,0H32.713V32.713H0Z" fill="none"/>
+      <path id="Path_41" data-name="Path 41" d="M15.63,22.813,24.054,27.9l-2.235-9.582,7.442-6.447-9.8-.831L15.63,2,11.8,11.037,2,11.868l7.442,6.447L7.207,27.9Z" transform="translate(0.726 0.726)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

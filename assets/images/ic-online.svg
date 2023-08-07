@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="ic-online" transform="translate(0 0.494)">
+    <rect id="Rectangle_265" data-name="Rectangle 265" width="22" height="22" transform="translate(0 -0.494)" fill="none"/>
+    <path id="Path_110" data-name="Path 110" d="M11.144,19.878H4.986V9.946H18.892v4.37l1.986-1.986V5.973a1.992,1.992,0,0,0-1.986-1.986H17.9V2H15.912V3.986H7.966V2H5.98V3.986H4.986A1.992,1.992,0,0,0,3,5.973V19.878a1.992,1.992,0,0,0,1.986,1.986h8.144ZM4.986,5.973H18.892V7.959H4.986ZM16.408,22.361l-3.476-3.476,1.391-1.391,2.086,2.086,4.172-4.172L21.971,16.8ZM9.357,14.217H7.072V11.932H9.357Zm0,3.774H7.072V15.706H9.357Zm3.774-3.774H10.846V11.932h2.284Zm3.874,0H14.72V11.932H17Z" transform="translate(-1.485 -1.18)" fill="#999"/>
+  </g>
+</svg>
