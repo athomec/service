@@ -15271,6 +15271,9 @@ input::placeholder, textarea::placeholder {
 
 .section {
   margin-bottom: 70px; }
+  @media (max-width: 576px) {
+    .section {
+      margin-bottom: 48px; } }
 
 .container {
   width: 90%;
