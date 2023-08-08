@@ -15310,8 +15310,8 @@ input::placeholder, textarea::placeholder {
     white-space: nowrap; }
     @media (max-width: 1200px) {
       .navbar-brand {
-        width: 280px;
-        height: 40px; } }
+        width: 270px;
+        height: 38px; } }
     @media (max-width: 576px) {
       .navbar-brand {
         width: 230px;
@@ -15831,7 +15831,8 @@ input::placeholder, textarea::placeholder {
 /*--------------------首頁開始------------------*/
 .main-banner {
   width: 100%;
-  max-height: 590px; }
+  max-height: 590px;
+  overflow: hidden; }
   @media (max-width: 523px) {
     .main-banner {
       display: none; } }
@@ -16636,7 +16637,64 @@ input::placeholder, textarea::placeholder {
       background: #008179;
       opacity: 0.75; }
 
-/*@import "page";
-@import "tempusdominus-bootstrap-4";*/
+.main {
+  min-height: 600px; }
+  .main-header-wrapper {
+    background: url("../images/header-bg.jpg") no-repeat;
+    background-size: cover; }
+  .main-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+    @media (max-width: 768px) {
+      .main-header {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+  .main-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 600; }
+    @media (max-width: 768px) {
+      .main-top {
+        font-size: 1.5rem; } }
+    @media (max-width: 768px) {
+      .main-top img {
+        width: 32px; } }
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    font-size: 0.9rem; } }
+
+.breadcrumb-link {
+  color: #343a40;
+  border-bottom: 2px solid #A6DFDD; }
+
+.breadcrumb-item {
+  color: #343a40; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 100%;
+  background: url("../images/ic-route.svg") no-repeat center;
+  margin-right: 8px; }
+
+/*@import "tempusdominus-bootstrap-4";*/
 
 /*# sourceMappingURL=all.css.map */

@@ -15,5 +15,22 @@ $(function () {//JS開頭
 		$(this).addClass("active");
 		return false;
 	})
+
+	//banner滑鼠滑動
+	$('.carousel-inner').on('mousedown', function (e) {
+		var startX = e.pageX || e.touches[0].pageX;
+		$(this).on('mousemove touchmove', function (e) {
+			var endX = e.pageX || e.touches[0].pageX;
+			if (startX - endX > 50) {
+				$('.carousel').carousel('next');
+				$(this).off('mousemove touchmove');
+			} else if (endX - startX > 50) {
+				$('.carousel').carousel('prev');
+				$(this).off('mousemove touchmove');
+			}
+		});
+	}).on('mouseup touchend', function () {
+		$(this).off('mousemove touchmove');
+	});
 	
 })//JS尾端	
