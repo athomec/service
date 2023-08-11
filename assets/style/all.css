@@ -15679,7 +15679,8 @@ input::placeholder, textarea::placeholder {
             flex-direction: column;
     position: fixed;
     right: 16px;
-    bottom: 30px; }
+    bottom: 30px;
+    z-index: 100; }
     @media (max-width: 576px) {
       .footer-function {
         bottom: 80px; } }
