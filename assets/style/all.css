@@ -15375,6 +15375,10 @@ input::placeholder, textarea::placeholder {
 input[readonly] {
   border: 1px solid #A6DFDD !important; }
 
+@media (max-width: 576px) {
+  .form-check, select ~ label {
+    font-size: 0.9rem !important; } }
+
 .section {
   margin-bottom: 70px; }
   @media (max-width: 768px) {
