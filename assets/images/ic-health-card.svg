@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ic-health-card" transform="translate(-1053 -443)">
+    <rect id="Rectangle_378" data-name="Rectangle 378" width="40" height="40" transform="translate(1053 443)" fill="none"/>
+    <g id="免許証のフリーイラスト2" transform="translate(1054 370.9)">
+      <path id="Path_115" data-name="Path 115" d="M37.711,81.784A4.394,4.394,0,0,0,33.66,79.1H4.4a4.342,4.342,0,0,0-1.71.349A4.394,4.394,0,0,0,.758,81.04,4.332,4.332,0,0,0,0,83.5v17.506a4.342,4.342,0,0,0,.349,1.71A4.394,4.394,0,0,0,4.4,105.4H33.66a4.342,4.342,0,0,0,1.71-.349A4.394,4.394,0,0,0,38.053,101V83.5A4.243,4.243,0,0,0,37.711,81.784ZM35.949,101a2.3,2.3,0,0,1-2.29,2.3H4.4a2.3,2.3,0,0,1-2.3-2.29V83.5a2.282,2.282,0,0,1,2.29-2.29H33.652a2.283,2.283,0,0,1,1.9,1.011,2.314,2.314,0,0,1,.394,1.279V101Z" fill="#694ebf"/>
+      <rect id="Rectangle_221" data-name="Rectangle 221" width="14.302" height="1.673" transform="translate(18.064 92.198)" fill="#694ebf"/>
+      <rect id="Rectangle_225" data-name="Rectangle 225" width="14.302" height="1.673" transform="translate(18.064 88.31)" fill="#694ebf"/>
+      <rect id="Rectangle_222" data-name="Rectangle 222" width="8.868" height="1.673" transform="translate(18.064 96.086)" fill="#694ebf"/>
+      <g id="Group_221" data-name="Group 221" transform="translate(4.908 86.935)">
+        <rect id="Rectangle_223" data-name="Rectangle 223" width="2.929" height="10.638" transform="translate(3.848 0)" fill="#694ebf"/>
+        <rect id="Rectangle_224" data-name="Rectangle 224" width="2.929" height="10.638" transform="translate(0 6.782) rotate(-90)" fill="#694ebf"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -32,5 +32,9 @@ $(function () {//JS開頭
 	}).on('mouseup touchend', function () {
 		$(this).off('mousemove touchmove');
 	});
+
+	$(".js-toggle-btn").click(function (){
+		$(this).toggleClass("active");
+	})
 	
 })//JS尾端	

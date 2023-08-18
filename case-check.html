@@ -139,191 +139,68 @@
 					title="網頁主要內容資料區">:::</a>					
 				<main class="main bg-gray-100 pb-1">
     <div class="main-header-wrapper pt-4 pt-md-5 pb-md-3 mb-4 mb-md-5">
-        <div class="main-header container" data-con="apply">
-            <h2 class="main-top"><img src="./assets/images/ic-globe.svg" alt="icon" class="me-2 me-lg-3"> 生活安全及品質
+        <div class="main-header container">
+            <h2 class="main-top"><img src="./assets/images/ic-case-check.svg" alt="icon" class="me-2 me-lg-3"> 案件進度查詢
             </h2>
             <ol class="breadcrumb ms-auto">
                 <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-link" title="回首頁">回首頁</a></li>
-                <li class="breadcrumb-item active" aria-current="page">生活安全及品質</li>
+                <li class="breadcrumb-item active" aria-current="page">案件進度查詢</li>
             </ol>
         </div>
     </div>
 
     <div class="container">
         <div class="section bg-white rounded-3 py-3 py-md-4 px-3 px-sm-4 px-md-5">
-            <div class="inner-form-box bg-primary px-3 px-md-4 py-3 rounded-3 mb-3">
-                <div class="input-search flex-column flex-md-row align-items-start align-items-md-center">
-                    <label for="type" class="d-flex text-white flex-shrink-0 mb-2 mb-md-0 me-2">
-                        <img src="./assets/images/ic-globe.svg" alt="icon" class="me-2"> 依服務別
-                    </label>
-                    <select class="form-select" id="type">
-                        <option selected>生活安全及品質(45)</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
+            <h3 class="sub-title mb-3 border-0 text-primary">申請方式</h3>
+            <div class="d-flex flex-wrap">
+                <div class="form-check form-check-inline me-5">
+                    <input class="form-check-input" type="radio" name="way" id="w1" value="身份證後四碼" checked>
+                    <label class="form-check-label" for="w1">身份證後四碼</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="way" id="w2" value="行動電話">
+                    <label class="form-check-label" for="w2">行動電話</label>
                 </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center text-gray-900 mb-3">
-                <h3 class="main-title mb-0" data-style="noline">生活安全及品質</h3>
-                <a href="filter.html" class="btn btn-primary rounded-pill d-flex py-1 py-md-2 px-md-3 ms-auto flex-shrink-0" title="排序">
-                    <img src="./assets/images/ic-order.svg" alt="排序 icon" class="me-1">排序
-                </a>
+            <hr class="border-primary-light opacity-100">
+            <h3 class="sub-title mb-3 border-0 text-primary">請輸入申請編號及身份證後四碼進行承辦案件查詢</h3>
+            <div class="d-flex flex-column flex-md-row mb-4">
+                <label for="single-row" class="form-label fw-medium flex-shrink-0 me-3 mt-2 text-md-end" style="width: 100px;">申請編號</label>
+                <input type="text" class="form-control" id="single-row" placeholder="請輸入申請編號" title="請輸入申請編號">
             </div>
-            <div class="row link-group p-3 g-0 mb-2">
-                <div class="col-xxl-6">
-                    <p class="link-group-text mb-3 mb-xxl-0">案件名稱案件名稱案件名稱案件名稱案件名稱名稱案件名稱案件名稱</p>
-                </div>
-                <div class="col-xxl-6 d-flex justify-content-end">
-                    <ul class="row link-group-list g-2">
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="臨櫃資料" class="link-group-link"><img
-                                    src="./assets/images/ic-counter-list.svg" alt="icon">臨櫃資料</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row link-group p-3 g-0 mb-2">
-                <div class="col-xxl-6">
-                    <p class="link-group-text mb-3 mb-xxl-0">案件名稱案件名稱案件名稱</p>
-                </div>
-                <div class="col-xxl-6 d-flex justify-content-end">
-                    <ul class="row link-group-list g-2">
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="臨櫃資料" class="link-group-link"><img
-                                    src="./assets/images/ic-counter-list.svg" alt="icon">臨櫃資料</a>
-                        </li>
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="表單下載" class="link-group-link"><img src="./assets/images/ic-download.svg"
-                                    alt="icon">表單下載</a>
-                        </li>
-                    </ul>
+            <div class="d-flex flex-column flex-md-row mb-3">
+                <label for="id-number" class="form-label fw-medium flex-shrink-0 me-3 mt-2 text-md-end" style="width: 100px;">身份證後四碼</label>
+                <div class="w-100">
+                    <div class="input-group mb-1">
+                        <input type="text" class="form-control border-end-0" id="id-number" placeholder="請輸入身份證後四碼" title="請輸入身份證後四碼">
+                        <div class="input-group-append">
+                            <button class="btn input-group-text view-btn js-toggle-btn" title="顯示內容" value="顯示內容">
+                                顯示/隱藏內容
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text-danger fs-7">此欄位為必填</p>
                 </div>
             </div>
-            <div class="row link-group p-3 g-0 mb-2">
-                <div class="col-xxl-6">
-                    <p class="link-group-text mb-3 mb-xxl-0">案件名稱案件名稱案件名稱案件名稱案件名稱名稱案件名稱案件名稱</p>
+            <div class="row mb-4">
+                <div class="col-xl-7 col-xxl-8 d-flex flex-column flex-md-row align-items-md-center mb-3 mb-xl-0">
+                    <label for="confirm" class="form-label fw-medium flex-shrink-0 me-3 mt-2 text-md-end" style="width: 100px;">驗證碼</label>
+                    <input type="text" class="form-control me-2 mb-3 mb-md-0" id="confirm" placeholder="請輸入驗證碼" title="請輸入驗證碼">
+                    <div class="d-flex align-items-center flex-shrink-0">
+                        <img src="./assets/images/demo-confirm.jpg" alt="驗證碼圖片" class="w-100 me-3 me-sm-2" style="max-width: 230px;">
+                        <div class="d-flex flex-column flex-sm-row">
+                            <a href="#" title="點擊重新整理驗證碼" class="btn btn-primary-light p-1 flex-shrink-0 me-sm-2 mb-2 mb-sm-0">
+                                <img src="./assets/images/ic-reset.svg" alt="重新整理驗證碼">
+                            </a>
+                            <a href="#" title="點擊播放驗證碼" class="btn btn-primary-light p-1 flex-shrink-0 me-sm-2">
+                                <img src="./assets/images/ic-voice.svg" alt="播放驗證碼">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xxl-6 d-flex justify-content-end">
-                    <ul class="row link-group-list g-2">
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="臨櫃資料" class="link-group-link"><img
-                                    src="./assets/images/ic-counter-list.svg" alt="icon">臨櫃資料</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row link-group p-3 g-0 mb-2">
-                <div class="col-xxl-6">
-                    <p class="link-group-text mb-3 mb-xxl-0">案件名稱案件名稱案件名稱案件名稱案件名稱名稱案件名稱案件名稱</p>
-                </div>
-                <div class="col-xxl-6 d-flex justify-content-end">
-                    <ul class="row link-group-list g-2">
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="查詢連結" class="link-group-link"><img src="./assets/images/ic-link.svg"
-                                    alt="icon">查詢連結</a>
-                        </li>
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="網路申辦" class="link-group-link"><img src="./assets/images/ic-web.svg"
-                                    alt="icon">網路申辦</a>
-                        </li>
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="臨櫃資料" class="link-group-link"><img
-                                    src="./assets/images/ic-counter-list.svg" alt="icon">臨櫃資料</a>
-                        </li>
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="表單下載" class="link-group-link"><img src="./assets/images/ic-download.svg"
-                                    alt="icon">表單下載</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row link-group p-3 g-0 mb-2">
-                <div class="col-xxl-6">
-                    <p class="link-group-text mb-3 mb-xxl-0">案件名稱案件名稱案件名稱案件名稱案件名稱名稱案件名稱案件名稱</p>
-                </div>
-                <div class="col-xxl-6 d-flex justify-content-end">
-                    <ul class="row link-group-list g-2">
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="臨櫃資料" class="link-group-link"><img
-                                    src="./assets/images/ic-counter-list.svg" alt="icon">臨櫃資料</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row link-group p-3 g-0 mb-2">
-                <div class="col-xxl-6">
-                    <p class="link-group-text mb-3 mb-xxl-0">案件名稱案件名稱案件名稱案件名稱案件名稱名稱案件名稱案件名稱</p>
-                </div>
-                <div class="col-xxl-6 d-flex justify-content-end">
-                    <ul class="row link-group-list g-2">
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="臨櫃資料" class="link-group-link"><img
-                                    src="./assets/images/ic-counter-list.svg" alt="icon">臨櫃資料</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row link-group p-3 g-0 mb-4">
-                <div class="col-xxl-6">
-                    <p class="link-group-text mb-3 mb-xxl-0">案件名稱案件名稱案件名稱案件名稱案件名稱名稱案件名稱案件名稱</p>
-                </div>
-                <div class="col-xxl-6 d-flex justify-content-end">
-                    <ul class="row link-group-list g-2">
-                        <li class="col-6 col-md-3 link-group-item">
-                            <a href="#" title="臨櫃資料" class="link-group-link"><img
-                                    src="./assets/images/ic-counter-list.svg" alt="icon">臨櫃資料</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="page mb-4">
-                <ul class="page-list">
-                    <li class="page-item">
-                        <a class="page-link page-link-function btn-dark-gray500" href="#" title="最前頁">
-                            <img src="./assets/images/ic-first.svg" alt="最前頁">
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link page-link-function btn-dark-gray500" href="#" title="前一頁">
-                            <img src="./assets/images/ic-prev.svg" alt="前一頁">
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link page-link-function btn-dark-gray500" href="#" title="第1頁">
-                            1
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link page-link-function btn-dark-gray500 active" href="#" title="第1頁">
-                            2
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link page-link-function btn-dark-gray500" href="#" title="第1頁">
-                            3
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link page-link-function btn-dark-gray500" href="#" title="下一頁">
-                            <img src="./assets/images/ic-next.svg" alt="下一頁">
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#" title="最後頁">
-                            <img src="./assets/images/ic-thelast.svg" alt="最後頁">
-                        </a>
-                    </li>
-                </ul>
-                <div class="page-form">
-                    <span>跳至第</span>
-                    <label for="page" class="visually-hidden">選擇頁數</label>
-                    <select class="form-select mx-1" title="選擇頁數">
-                        <option selected>1</option>
-                        <option value="1">2</option>
-                        <option value="2">3</option>
-                        <option value="3">4</option>
-                    </select>
-                    <span>頁</span>
+                <div class="col-xl-5 col-xxl-4 d-flex align-items-center mobile-inline-100">
+                    <a href="index.html" class="btn btn-gray-600 ms-auto px-5 fw-medium me-3" title="返回">返回</a>
+                    <a href="case-detail.html" class="btn btn-primary px-5 fw-medium" title="查詢">查詢</a>
                 </div>
             </div>
         </div>

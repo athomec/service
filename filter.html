@@ -54,7 +54,7 @@
                         <a class="nav-link" href="faq.html" title="常見問題">常見問題</a>
                     </li>
                     <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="case.html" title="案件進度查詢">案件進度查詢</a>
+                        <a class="nav-link" href="case-check.html" title="進度查詢">進度查詢</a>
                     </li>
                     <li class="nav-item px-3 px-xl-4 d-none d-lg-flex">
                         <p class="ms-auto me-2 text-primary fw-bold">字級</p>
@@ -78,7 +78,7 @@
                         <div id="top-member-login" class="top-member-dropdown collapse" style="width: 140px;">
                             <ul class="py-2 px-lg-3">
                                 <li class="top-member-item">
-                                    <a href="#" class="top-member-link" title="會員登入">
+                                    <a href="login.html" class="top-member-link" title="會員登入">
                                         <img src="./assets/images/ic-login.svg" alt="會員登入icon" class="me-1">會員登入
                                     </a>
                                 </li>
@@ -122,12 +122,12 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="#" title="進度查詢" class="navbar-mobile-link ">
+                <a href="case-check.html" title="進度查詢" class="navbar-mobile-link ">
                     <img src="./assets/images/ic-progress.svg" alt="進度查詢icon"> 進度查詢
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="#" title="登入" class="navbar-mobile-link ">
+                <a href="login.html" title="登入" class="navbar-mobile-link ">
                     <img src="./assets/images/ic-user-default.svg" alt="登入icon"> 登入
                 </a>
             </li>
@@ -136,8 +136,7 @@
 </header>
 <!--主選單結束-->
 				<a href="#Accesskey_C" class="key position-absolute" id="Accesskey_C" accesskey="C"
-					title="網頁主要內容資料區">:::</a>
-					
+					title="網頁主要內容資料區">:::</a>					
 				<main class="main bg-gray-100 pb-1">
     <div class="main-header-wrapper pt-4 pt-md-5 pb-md-3 mb-4 mb-md-5">
         <div class="main-header container">
@@ -277,7 +276,6 @@
         </div>
     </div>
 </main>
-					
 					<!--footer開始-->
 <footer class="footer">
     <div class="footer-function">
@@ -401,7 +399,7 @@
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/moment-with-locales.min.js"></script>
-<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="assets/js/tempusdominus-bootstrap-4.js"></script>
 <script src="assets/js/script.js"></script><!--自訂-->
 <script>
     $(function () {
@@ -431,8 +429,8 @@
                 }
             ]
         });
-         //內頁輪播
-         $('.js-choose-service').slick({
+        //內頁輪播
+        $('.js-choose-service').slick({
             speed: 300,
             slidesToShow: 4,
             slidesToScroll: 4,
@@ -477,6 +475,37 @@
         };
         $('#time-start').datetimepicker(datetimepickerOptions);
         $('#time-end').datetimepicker(datetimepickerOptions);
+        //時間範圍表單
+        var datetimepickerRange = {
+            locale: 'zh-tw',
+            //defaultDate: new Date(),
+            format: 'L',
+            allowMultidate: true,
+            multidateSeparator: '~',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        };
+        $('#time-range').datetimepicker(datetimepickerRange);
+        $('#time-range1').datetimepicker(datetimepickerRange);
+
+        var today1 = moment(); // 第一個今天的日期
+        var today2 = moment(); // 第二個今天的日期
+
+
+        //自動開啟完成視窗
+        const myModalEl = document.getElementById('done');
+        setTimeout(function () {
+            const bsModal = new bootstrap.Modal(myModalEl);
+            bsModal.show();
+        }, 2000);
     });
 </script>
 	</body>
