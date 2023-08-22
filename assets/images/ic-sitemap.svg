@@ -1,0 +1,10 @@
+<svg id="ic-sitemap" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_329" data-name="Group 329">
+    <rect id="Rectangle_337" data-name="Rectangle 337" width="50" height="50" fill="none"/>
+  </g>
+  <g id="Group_331" data-name="Group 331" transform="translate(6.25 6.25)">
+    <g id="Group_330" data-name="Group 330">
+      <path id="Path_197" data-name="Path 197" d="M36.333,28.375V11.333a8.333,8.333,0,1,0-16.667,0V32.167a4.167,4.167,0,1,1-8.333,0V15.125a6.25,6.25,0,1,0-4.167,0V32.167a8.333,8.333,0,1,0,16.667,0V11.333a4.167,4.167,0,1,1,8.333,0V28.375a6.25,6.25,0,1,0,4.167,0ZM9.25,11.333A2.083,2.083,0,1,1,11.333,9.25,2.089,2.089,0,0,1,9.25,11.333Zm25,25a2.083,2.083,0,1,1,2.083-2.083A2.089,2.089,0,0,1,34.25,36.333Z" transform="translate(-3 -3)" fill="#008179"/>
+    </g>
+  </g>
+</svg>

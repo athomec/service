@@ -1,0 +1,15 @@
+<svg id="ic-spot" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Group_295" data-name="Group 295">
+    <path id="Path_159" data-name="Path 159" d="M0,0H35V35H0Z" fill="none"/>
+  </g>
+  <g id="Group_297" data-name="Group 297" transform="translate(2.96 2.99)">
+    <g id="Group_296" data-name="Group 296">
+      <path id="Path_160" data-name="Path 160" d="M13.02,20.673v2.946A14.509,14.509,0,0,0,20.778,20.4L18.708,18.31A11.581,11.581,0,0,1,13.02,20.673Z" transform="translate(3.007 5.403)" fill="#008179"/>
+      <path id="Path_161" data-name="Path 161" d="M4.947,16.56A11.689,11.689,0,0,1,15.082,5V2.05a14.592,14.592,0,0,0,0,29.021V28.125A11.689,11.689,0,0,1,4.947,16.56Z" transform="translate(-2.03 -2.05)" fill="#008179"/>
+      <path id="Path_162" data-name="Path 162" d="M20.693,13.438h2.946A14.509,14.509,0,0,0,20.415,5.68L18.33,7.765A11.474,11.474,0,0,1,20.693,13.438Z" transform="translate(5.441 -0.386)" fill="#008179"/>
+      <path id="Path_163" data-name="Path 163" d="M20.778,5.273A14.556,14.556,0,0,0,13.02,2.05V5a11.581,11.581,0,0,1,5.687,2.363Z" transform="translate(3.007 -2.05)" fill="#008179"/>
+      <path id="Path_164" data-name="Path 164" d="M18.33,18.688l2.085,2.071A14.509,14.509,0,0,0,23.638,13H20.693A11.581,11.581,0,0,1,18.33,18.688Z" transform="translate(5.441 2.969)" fill="#008179"/>
+      <path id="Path_165" data-name="Path 165" d="M19.667,12.979A5.835,5.835,0,1,0,8,12.979q0,3.631,5.833,8.6Q19.674,16.618,19.667,12.979Zm-5.833,1.312a1.56,1.56,0,1,1,1.56-1.56A1.562,1.562,0,0,1,13.833,14.292Z" transform="translate(0.706 0.219)" fill="#008179"/>
+    </g>
+  </g>
+</svg>

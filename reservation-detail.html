@@ -112,12 +112,12 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="apply-service.html" title="申辦服務" class="navbar-mobile-link active">
+                <a href="apply-service.html" title="申辦服務" class="navbar-mobile-link ">
                     <img src="./assets/images/ic-apply.svg" alt="申辦服務icon"> 申辦服務
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="reservation.html" title="線上預約" class="navbar-mobile-link ">
+                <a href="reservation.html" title="線上預約" class="navbar-mobile-link active">
                     <img src="./assets/images/ic-online.svg" alt="線上預約icon"> 線上預約
                 </a>
             </li>
@@ -137,158 +137,76 @@
 <!--主選單結束-->
 				<a href="#Accesskey_C" class="key position-absolute" id="Accesskey_C" accesskey="C"
 					title="網頁主要內容資料區">:::</a>					
-				<!---完成視窗開始--->
-<div class="modal fade" id="done" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <p>申辦服務滿意度調查</p>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" title="關閉視窗">關閉視窗</button>
-            </div>
-            <div class="modal-body px-4 pb-0">
-                <p class="mb-4">親愛的使用者您好: <br>
-                謝謝您使用本平台之申辦服務,本問卷所有資料僅供高雄市政府內部使用與分析, 內容保密不公開,敬請安心填寫。</p>
-                <p class="fw-bold mb-4">請配合以下問卷,填寫您在使用上的滿意度</p>
-                <div class="d-flex flex-column flex-lg-row mb-4">
-                    <div class="form-label fw-bold flex-shrink-0 me-3" style="width: 215px;">
-                        <span class="text-danger">*</span> 是否滿意此申辦之操作流程
-                    </div>
-                    <div class="d-flex flex-wrap mobile-inline-100">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s1" value="非常滿意" checked>
-                            <label class="form-check-label" for="s1">非常滿意</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s2" value="滿意">
-                            <label class="form-check-label" for="s2">滿意</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s3" value="普通">
-                            <label class="form-check-label" for="s3">普通</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s4" value="不滿意">
-                            <label class="form-check-label" for="s4">不滿意</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s5" value="非常不滿意">
-                            <label class="form-check-label" for="s5">非常不滿意</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-column flex-lg-row mb-4">
-                    <div class="form-label fw-bold flex-shrink-0 me-3" style="width: 215px;">
-                        是否願意再次使用
-                    </div>
-                    <div class="d-flex flex-wrap mobile-inline-100">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="use" id="u1" value="會" checked>
-                            <label class="form-check-label" for="u1">會</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="use" id="u2" value="不會">
-                            <label class="form-check-label" for="u2">不會</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-4">
-                    <label for="paragraph" class="form-label fw-bold flex-shrink-0 me-3 mt-1">意見回饋</label>
-                    <textarea class="form-control p-3" id="paragraph" rows="4" title="輸入多行文字">申請服務案件提供關鍵字、類別分類、智能客服等查詢方式，進行線上作業流程包含服務宣告、填寫表單(部分案件整合MYDATA)表單確認、案件成案、發送mail及推播通知，可利用案件編號+身分證後四碼進行案件進度查詢。
-                    </textarea>
-                </div>
-                <div class="d-flex flex-column flex-lg-row mb-4">
-                    <div class="form-label fw-bold flex-shrink-0 me-3" style="width: 215px;"><span class="text-danger">*</span> 如何得知此網站</div>
-                    <div class="d-flex flex-wrap mobile-inline-100">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="k1" value="option1" checked>
-                            <label class="form-check-label" for="k1">親友介紹</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="k2" value="option2">
-                            <label class="form-check-label" for="k2">親友介紹</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="k3" value="option3">
-                            <label class="form-check-label" for="k3">親友介紹</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer flex-nowrap pt-0 border-0">
-                <a href="#" class="multi-btn-group-link btn btn-gray-600 px-md-5 fw-medium me-3" title="取消" data-bs-dismiss="modal">取消</a>
-                <a href="#" class="multi-btn-group-link btn btn-primary px-md-5 fw-medium" title="送出" data-bs-dismiss="modal">送出</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!---完成視窗結束--->
-<main class="main bg-gray-100 pb-1">
+				<main class="main bg-gray-100 pb-1">
     <div class="main-header-wrapper pt-4 pt-md-5 pb-md-3 mb-4 mb-md-5">
         <div class="main-header container">
-            <h2 class="main-top"><img src="./assets/images/ic-service.svg" alt="icon" class="me-2 me-lg-3"> 車輛行車事故鑑定覆議
+            <h2 class="main-top"><img src="./assets/images/ic-spot.svg" alt="icon" class="me-2 me-lg-3"> 線上場地租借
             </h2>
             <ol class="breadcrumb ms-auto">
                 <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-link" title="回首頁">回首頁</a></li>
-                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link" title="交通及通訊">交通及通訊</a></li>
-                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link" title="住址變更登記">車輛行車事故鑑定覆議</a></li>
-                <li class="breadcrumb-item active" aria-current="page">網路申辦</li>
+                <li class="breadcrumb-item"><a href="reservation.html" class="breadcrumb-link" title="我要預約">我要預約</a></li>
+                <li class="breadcrumb-item active" aria-current="page">線上場地租借</li>
             </ol>
         </div>
     </div>
 
     <div class="container">
-        <div class="section bg-white rounded-3 py-3 py-md-4 px-3 px-sm-4 px-md-5">
-            <ul class="step mt-4 mb-4 mb-md-5">
-                <li class="step-item">
-                    <a href="#" title="申請同意書" class="step-link done">
-                        <span class="step-number">1</span>
-                        <p class="step-txt">申請同意書</p>
-                    </a>
-                </li>
-                <li class="step-item">
-                    <a href="#" title="身份驗證" class="step-link done">
-                        <span class="step-number">2</span>
-                        <p class="step-txt">身份驗證</p>
-                    </a>
-                </li>
-                <li class="step-item">
-                    <a href="#" title="填寫申請表" class="step-link done">
-                        <span class="step-number">3</span>
-                        <p class="step-txt">填寫申請表</p>
-                    </a>
-                </li>
-                <li class="step-item">
-                    <a href="#" title="確認申請內容" class="step-link done">
-                        <span class="step-number">4</span>
-                        <p class="step-txt">確認申請內容</p>
-                    </a>
-                </li>
-                <li class="step-item">
-                    <a href="#" title="完成" class="step-link done">
-                        <span class="step-number">5</span>
-                        <p class="step-txt">完成</p>
-                    </a>
-                </li>
-            </ul>
-            <div class="bg-primary-xlight rounded px-4 px-md-5 py-4 py-md-5">
-                <div class="list-message">
-                    <img src="./assets/images/ic-list-done.svg" alt="icon" class="list-message-img me-md-3 mb-3 mb-md-0">
-                    <p class="list-message-txt text-center">
-                        Hiyoiwaw235 您好！<br>
-                        您已經完成 <br class="d-inline d-md-none"> 車輛行車事故鑑定覆議
-                    </p>
+        <div class="section bg-white rounded-3 py-3 py-md-4 px-3 px-sm-4">
+            <div class="d-flex flex-column flex-lg-row mb-4">
+                <div class="d-flex flex-column flex-sm-row flex-wrap flex-sm-nowrap align-items-md-center w-100">
+                    <label for="select-spot" class="form-label d-flex align-items-center fw-medium flex-shrink-0 me-2 mb-2 mb-sm-3 mb-lg-0">
+                        <img src="./assets/images/ic-select-spot.svg" alt="icon" class="me-1" style="width: 28px;">選擇場地
+                    </label>
+                    <select class="form-select w-100 me-4 mb-3 mb-lg-0" id="select-spot">
+                        <option selected>303會議室</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <p class="flex-shrink-0 fw-semibold me-lg-4 mb-3 mb-lg-0 text-center">租借費用<span class="text-danger fs-5 ms-2">2500 元</span></p>
+                </div>
+                <div class="d-flex align-items-center mobile-inline-100 flex-shrink-0">
+                    <a href="reservation.html" class="btn btn-gray-600 ms-auto px-sm-5 fw-semibold me-3" title="返回前頁">返回前頁</a>
+                    <a href="reservation-info.html" class="btn btn-primary px-sm-5 fw-semibold" title="我要租借">我要租借</a>
                 </div>
             </div>
-            <div class="bg-gray-100 px-3 px-md-4 py-3 d-flex flex-wrap mb-4 border-top border-2 border-white rounded-bottom">
-                <p class="me-5"><span class="me-2 fw-medium">申請編號</span>A985425123456</p>
-                <p class="me-5 mb-2 mb-md-0"><span class="me-2 fw-medium">申請時間</span>2023/10/12 10:30</p>
-                <p class="ms-auto text-danger fs-7">請妥善保存申請編號</p>
-            </div>
-            <div class="multi-btn-group">
-                <a href="#" class="multi-btn-group-link btn btn-gray-600 ms-auto px-md-5 fw-medium me-md-3" title="回首頁">回首頁</a>
-                <div class="multi-btn-group-main mb-3 mb-md-0">
-                    <a href="#" class="multi-btn-group-link btn btn-primary px-md-5 fw-medium me-3" title="案件查詢">案件查詢</a>
-                    <a href="#" class="multi-btn-group-link btn btn-secondary px-md-5 fw-medium" title="案號下載">案號下載</a>
+
+            <div class="bg-gray-100 rounded px-3 px-sm-4 px-md-5 py-3 py-md-4 mb-4">
+                <div class="d-flex flex-column flex-lg-row">
+                    <h3 class="sub-title border-0 flex-shrink-0 mt-md-2 me-3">相關附件</h3>
+                    <ul class="file-list border-0">
+                        <li class="file-list-item justify-content-start px-0">
+                            <span class="tag-danger me-2">PDF</span>高雄市勞工教育生活中心場地使用管理規範
+                        </li>
+                        <li class="file-list-item justify-content-start px-0">
+                            <span class="tag-bright me-2">DOC</span>高雄市勞工管理規範
+                        </li>
+                        <li class="file-list-item justify-content-start px-0">
+                            <span class="tag-tertiary-dark me-2">XLS</span>高雄市勞工管理規範
+                        </li>
+                        <li class="file-list-item justify-content-start px-0">
+                            <span class="tag-danger-light me-2">XLS</span>高雄市勞工教育生活中心場地使用管理規範
+                        </li>
+                    </ul>
+                </div>
+                <hr class="border-primary-light opacity-100 mb-4">
+                <div class="d-flex flex-column flex-lg-row">
+                    <h3 class="sub-title border-0 flex-shrink-0 me-3">場地介紹</h3>
+                    <div class="editor mb-4">
+                        <div class="d-flex flex-column">
+                            <p class="mb-4">
+                                適合8人左右的中型會議空間，適用於課程講座、商務會議、作品展覽、教育訓練、座談會、讀書會、研討會等靜態活動，備有音響及投影設備，白板及高速網路。
+                            </p>
+                            <div class="row align-items-stretch gx-5 gy-4">
+                                <div class="col-md-8">
+                                    <img src="./assets/images/demo-p1.jpg" alt="照片" class="w-100 h-100">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./assets/images/demo-p2.jpg" alt="照片" class="w-100 h-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

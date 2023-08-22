@@ -112,7 +112,7 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="apply-service.html" title="申辦服務" class="navbar-mobile-link active">
+                <a href="apply-service.html" title="申辦服務" class="navbar-mobile-link ">
                     <img src="./assets/images/ic-apply.svg" alt="申辦服務icon"> 申辦服務
                 </a>
             </li>
@@ -137,158 +137,128 @@
 <!--主選單結束-->
 				<a href="#Accesskey_C" class="key position-absolute" id="Accesskey_C" accesskey="C"
 					title="網頁主要內容資料區">:::</a>					
-				<!---完成視窗開始--->
-<div class="modal fade" id="done" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <p>申辦服務滿意度調查</p>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" title="關閉視窗">關閉視窗</button>
-            </div>
-            <div class="modal-body px-4 pb-0">
-                <p class="mb-4">親愛的使用者您好: <br>
-                謝謝您使用本平台之申辦服務,本問卷所有資料僅供高雄市政府內部使用與分析, 內容保密不公開,敬請安心填寫。</p>
-                <p class="fw-bold mb-4">請配合以下問卷,填寫您在使用上的滿意度</p>
-                <div class="d-flex flex-column flex-lg-row mb-4">
-                    <div class="form-label fw-bold flex-shrink-0 me-3" style="width: 215px;">
-                        <span class="text-danger">*</span> 是否滿意此申辦之操作流程
-                    </div>
-                    <div class="d-flex flex-wrap mobile-inline-100">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s1" value="非常滿意" checked>
-                            <label class="form-check-label" for="s1">非常滿意</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s2" value="滿意">
-                            <label class="form-check-label" for="s2">滿意</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s3" value="普通">
-                            <label class="form-check-label" for="s3">普通</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s4" value="不滿意">
-                            <label class="form-check-label" for="s4">不滿意</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="satisfaction" id="s5" value="非常不滿意">
-                            <label class="form-check-label" for="s5">非常不滿意</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-column flex-lg-row mb-4">
-                    <div class="form-label fw-bold flex-shrink-0 me-3" style="width: 215px;">
-                        是否願意再次使用
-                    </div>
-                    <div class="d-flex flex-wrap mobile-inline-100">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="use" id="u1" value="會" checked>
-                            <label class="form-check-label" for="u1">會</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="use" id="u2" value="不會">
-                            <label class="form-check-label" for="u2">不會</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-4">
-                    <label for="paragraph" class="form-label fw-bold flex-shrink-0 me-3 mt-1">意見回饋</label>
-                    <textarea class="form-control p-3" id="paragraph" rows="4" title="輸入多行文字">申請服務案件提供關鍵字、類別分類、智能客服等查詢方式，進行線上作業流程包含服務宣告、填寫表單(部分案件整合MYDATA)表單確認、案件成案、發送mail及推播通知，可利用案件編號+身分證後四碼進行案件進度查詢。
-                    </textarea>
-                </div>
-                <div class="d-flex flex-column flex-lg-row mb-4">
-                    <div class="form-label fw-bold flex-shrink-0 me-3" style="width: 215px;"><span class="text-danger">*</span> 如何得知此網站</div>
-                    <div class="d-flex flex-wrap mobile-inline-100">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="k1" value="option1" checked>
-                            <label class="form-check-label" for="k1">親友介紹</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="k2" value="option2">
-                            <label class="form-check-label" for="k2">親友介紹</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="k3" value="option3">
-                            <label class="form-check-label" for="k3">親友介紹</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer flex-nowrap pt-0 border-0">
-                <a href="#" class="multi-btn-group-link btn btn-gray-600 px-md-5 fw-medium me-3" title="取消" data-bs-dismiss="modal">取消</a>
-                <a href="#" class="multi-btn-group-link btn btn-primary px-md-5 fw-medium" title="送出" data-bs-dismiss="modal">送出</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!---完成視窗結束--->
-<main class="main bg-gray-100 pb-1">
+				<main class="main bg-gray-100 pb-1">
     <div class="main-header-wrapper pt-4 pt-md-5 pb-md-3 mb-4 mb-md-5">
         <div class="main-header container">
-            <h2 class="main-top"><img src="./assets/images/ic-service.svg" alt="icon" class="me-2 me-lg-3"> 車輛行車事故鑑定覆議
+            <h2 class="main-top"><img src="./assets/images/ic-sitemap.svg" alt="icon" class="me-2 me-lg-3"> 網站導覽
             </h2>
             <ol class="breadcrumb ms-auto">
                 <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-link" title="回首頁">回首頁</a></li>
-                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link" title="交通及通訊">交通及通訊</a></li>
-                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link" title="住址變更登記">車輛行車事故鑑定覆議</a></li>
-                <li class="breadcrumb-item active" aria-current="page">網路申辦</li>
+                <li class="breadcrumb-item active" aria-current="page">網站導覽</li>
             </ol>
         </div>
     </div>
 
     <div class="container">
         <div class="section bg-white rounded-3 py-3 py-md-4 px-3 px-sm-4 px-md-5">
-            <ul class="step mt-4 mb-4 mb-md-5">
-                <li class="step-item">
-                    <a href="#" title="申請同意書" class="step-link done">
-                        <span class="step-number">1</span>
-                        <p class="step-txt">申請同意書</p>
-                    </a>
-                </li>
-                <li class="step-item">
-                    <a href="#" title="身份驗證" class="step-link done">
-                        <span class="step-number">2</span>
-                        <p class="step-txt">身份驗證</p>
-                    </a>
-                </li>
-                <li class="step-item">
-                    <a href="#" title="填寫申請表" class="step-link done">
-                        <span class="step-number">3</span>
-                        <p class="step-txt">填寫申請表</p>
-                    </a>
-                </li>
-                <li class="step-item">
-                    <a href="#" title="確認申請內容" class="step-link done">
-                        <span class="step-number">4</span>
-                        <p class="step-txt">確認申請內容</p>
-                    </a>
-                </li>
-                <li class="step-item">
-                    <a href="#" title="完成" class="step-link done">
-                        <span class="step-number">5</span>
-                        <p class="step-txt">完成</p>
-                    </a>
-                </li>
-            </ul>
-            <div class="bg-primary-xlight rounded px-4 px-md-5 py-4 py-md-5">
-                <div class="list-message">
-                    <img src="./assets/images/ic-list-done.svg" alt="icon" class="list-message-img me-md-3 mb-3 mb-md-0">
-                    <p class="list-message-txt text-center">
-                        Hiyoiwaw235 您好！<br>
-                        您已經完成 <br class="d-inline d-md-none"> 車輛行車事故鑑定覆議
-                    </p>
+            <div class="bg-primary-xlight rounded px-4 px-md-5 py-3 py-md-4 mb-5 fs-mobile-h7 fw-medium">
+                本網站依照「無障礙網頁開發規範」原則設計，遵循無障礙網站設計之規範提供網頁導盲磚（:::）、網站導覽（Site Navigator）、鍵盤快速鍵（Access
+                Key）等設計方式。下列為本網站使用鍵盤快速鍵（Access Key）操作方式說明：
+                <br><br>
+                <span class="fw-semibold">Alt + U：</span> 上方選單連結區，此區塊列有功能選單連結及各語言版本選單連結。<br>
+                <span class="fw-semibold">Alt + C：</span>中間主要內容顯示區，此區塊呈現各網頁的資訊內容。<br>
+                <span class="fw-semibold">Alt + B：</span>下方選單連結區，此區塊列有功能選單連結。
+            </div>
+            <div class="sitemap">
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="bg-gray-100 px-3 px-md-4 py-3 d-flex flex-wrap mb-4 border-top border-2 border-white rounded-bottom">
-                <p class="me-5"><span class="me-2 fw-medium">申請編號</span>A985425123456</p>
-                <p class="me-5 mb-2 mb-md-0"><span class="me-2 fw-medium">申請時間</span>2023/10/12 10:30</p>
-                <p class="ms-auto text-danger fs-7">請妥善保存申請編號</p>
-            </div>
-            <div class="multi-btn-group">
-                <a href="#" class="multi-btn-group-link btn btn-gray-600 ms-auto px-md-5 fw-medium me-md-3" title="回首頁">回首頁</a>
-                <div class="multi-btn-group-main mb-3 mb-md-0">
-                    <a href="#" class="multi-btn-group-link btn btn-primary px-md-5 fw-medium me-3" title="案件查詢">案件查詢</a>
-                    <a href="#" class="multi-btn-group-link btn btn-secondary px-md-5 fw-medium" title="案號下載">案號下載</a>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-item">
+                    <h3 class="sitemap-title">
+                        申辦服務
+                    </h3>
+                    <ul class="link-list">
+                        <li><a href="#" class="link-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="線上申辦">線上申辦</a></li>
+                        <li><a href="#" class="link-list-link" title="下載資料">下載資料</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
