@@ -18152,6 +18152,12 @@ input[readonly] {
     .file-list-action:hover {
       opacity: 0.8; }
 
+a.file-list-item {
+  color: #212529;
+  font-weight: 500; }
+  a.file-list-item:hover {
+    opacity: 0.8; }
+
 .theme-box {
   -webkit-box-shadow: 0 5px 5px #adb5bd;
           box-shadow: 0 5px 5px #adb5bd; }
