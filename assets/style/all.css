@@ -16727,7 +16727,7 @@ input[readonly] {
     padding: 4px 0; }
     @media (max-width: 991px) {
       .top-member-link {
-        padding: 8px 0;
+        padding: 4px 0;
         color: #000;
         font-weight: 700; } }
     .top-member-link:hover {
