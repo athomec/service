@@ -168,9 +168,34 @@
             <div
                 class="d-flex flex-column flex-md-row justify-content-between align-items-center text-gray-600 mb-3 fs-7">
                 <p class="mb-2 mb-xl-0">關鍵字查詢 <span class="text-secondary mx-1">地價稅</span> 搜尋結果，共查詢到 4 筆 / 目前顯示第 1 - 10 筆</p>
-                <a href="#" class="btn btn-primary rounded-pill d-flex py-1 py-md-2 px-md-3 ms-auto flex-shrink-0" title="排序">
+                <a href="#" class="btn btn-primary rounded-pill d-flex py-1 py-md-2 px-md-3 ms-auto flex-shrink-0 dropdown-toggle dropdown-btn" title="排序" data-bs-toggle="dropdown">
                     <img src="./assets/images/ic-order.svg" alt="排序 icon" class="me-1">排序
                 </a>
+                <ul class="dropdown-menu" role="tablist">
+                    <li>
+                        <a class="dropdown-item" href="#" data-bs-toggle="pill" title="以查詢連結排序">
+                        <div class="dropdown-menu-badge rounded-pill"><img src="./assets/images/ic-order-first.svg" alt="icon"> TOP</div> 查詢連結
+                    </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-bs-toggle="pill" title="以網路申辦排序">
+                            <div class="dropdown-menu-badge rounded-pill"><img src="./assets/images/ic-order-first.svg" alt="icon"> TOP</div>
+                            網路申辦
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-bs-toggle="pill" title="以臨櫃資料排序">
+                            <div class="dropdown-menu-badge rounded-pill"><img src="./assets/images/ic-order-first.svg" alt="icon"> TOP</div>
+                            臨櫃資料
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-bs-toggle="pill" title="以表單下載排序">
+                            <div class="dropdown-menu-badge rounded-pill"><img src="./assets/images/ic-order-first.svg" alt="icon"> TOP</div>
+                            表單下載
+                        </a>
+                    </li>
+                </ul>
             </div>
             <div class="row link-group p-3 g-0 mb-2">
                 <div class="col-xxl-6">
