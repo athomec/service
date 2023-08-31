@@ -36,5 +36,9 @@ $(function () {//JS開頭
 	$(".js-toggle-btn").click(function (){
 		$(this).toggleClass("active");
 	})
+	$(".js-dropdown-menu").find("a").click(function () {
+		$(this).toggleClass("active");
+		$(".js-dropdown-menu").find("a").not(this).removeClass("active");
+	})
 	
 })//JS尾端	
