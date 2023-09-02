@@ -1,0 +1,14 @@
+<svg id="ic-questionnaire" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_540" data-name="Group 540">
+    <rect id="Rectangle_389" data-name="Rectangle 389" width="24" height="24" fill="none"/>
+  </g>
+  <g id="Group_542" data-name="Group 542">
+    <g id="Group_541" data-name="Group 541">
+      <path id="Path_398" data-name="Path 398" d="M20,3H4A2.006,2.006,0,0,0,2,5V19a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,20,3Zm0,16H4V5H20Z" fill="#008179" fill-rule="evenodd"/>
+      <path id="Path_399" data-name="Path 399" d="M19.41,10.42,17.99,9l-3.17,3.17-1.41-1.42L12,12.16,14.82,15Z" fill="#008179" fill-rule="evenodd"/>
+      <rect id="Rectangle_390" data-name="Rectangle 390" width="5" height="2" transform="translate(5 7)" fill="#008179"/>
+      <rect id="Rectangle_391" data-name="Rectangle 391" width="5" height="2" transform="translate(5 11)" fill="#008179"/>
+      <rect id="Rectangle_392" data-name="Rectangle 392" width="5" height="2" transform="translate(5 15)" fill="#008179"/>
+    </g>
+  </g>
+</svg>
