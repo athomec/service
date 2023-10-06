@@ -19597,7 +19597,7 @@ a.file-list-item {
       left: auto !important;
       right: 0 !important; } }
   .dropdown-btn ~ .dropdown-menu::before {
-    content: '';
+    content: "";
     width: 22px;
     height: 13px;
     background: url("../images/dropdwon-point.svg") no-repeat;
@@ -19678,5 +19678,54 @@ a.file-list-item {
   .base-btn img {
     width: 20px;
     margin-right: 4px; }
+
+/*行事曆開始*/
+@media (max-width: 768px) {
+  .fc-header-toolbar {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+
+.fc-header-toolbar .fc-toolbar-title {
+  color: #008179; }
+
+@media (max-width: 768px) {
+  .fc-header-toolbar .fc-toolbar-chunk:first-child {
+    margin-right: 16px; } }
+
+@media (max-width: 768px) {
+  .fc-header-toolbar .fc-toolbar-chunk:last-child {
+    margin-left: auto; } }
+
+.fc-header-toolbar button {
+  font-weight: 600; }
+  .fc-header-toolbar button:hover {
+    color: #fff !important; }
+  .fc-header-toolbar button:disabled {
+    pointer-events: none; }
+
+.fc-header-toolbar .fc-button-active {
+  color: #fff !important; }
+
+.fc-col-header-cell-cushion,
+.fc-daygrid-day-number {
+  color: #343a40 !important; }
+
+.fc-view-harness {
+  height: auto !important; }
+
+.fc-view {
+  width: 100%;
+  height: 800px;
+  position: relative !important;
+  overflow-y: hidden;
+  overflow-x: auto; }
+  @media (max-width: 768px) {
+    .fc-view {
+      height: 700px; } }
+  .fc-view > table {
+    width: 100%; }
+    @media (max-width: 768px) {
+      .fc-view > table {
+        min-width: 1000px; } }
 
 /*# sourceMappingURL=all.css.map */
