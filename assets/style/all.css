@@ -19776,4 +19776,12 @@ a.file-list-item {
       .fc-view > table {
         min-width: 1000px; } }
 
+.apply-box > div > .form-label {
+  text-align: right; }
+  @media (max-width: 768px) {
+    .apply-box > div > .form-label {
+      width: 100% !important;
+      -moz-text-align-last: left;
+           text-align-last: left; } }
+
 /*# sourceMappingURL=all.css.map */
