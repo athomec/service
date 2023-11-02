@@ -44,8 +44,8 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="sitemap.html" title="網站導覽">網站導覽</a>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link" href="case-check.html" title="案件查詢">案件查詢</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" title="高雄數位市民">高雄數位市民</a>
@@ -53,8 +53,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="faq.html" title="常見問題">常見問題</a>
                     </li>
-                    <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="case-check.html" title="進度查詢">進度查詢</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sitemap.html" title="網站導覽">網站導覽</a>
                     </li>
                     <li class="nav-item px-2 px-xl-4 d-none d-lg-flex">
                         <p class="ms-auto me-2 text-primary fw-bold">字級</p>
@@ -107,7 +107,7 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="apply-service.html" title="申辦服務" class="navbar-mobile-link ">
+                <a href="#service" title="申辦服務" class="navbar-mobile-link ">
                     <img src="./assets/images/ic-apply.svg" alt="申辦服務icon"> 申辦服務
                 </a>
             </li>
@@ -117,8 +117,8 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="case-check.html" title="進度查詢" class="navbar-mobile-link ">
-                    <img src="./assets/images/ic-progress.svg" alt="進度查詢icon"> 進度查詢
+                <a href="case-check.html" title="案件查詢" class="navbar-mobile-link ">
+                    <img src="./assets/images/ic-progress.svg" alt="案件查詢icon"> 案件查詢
                 </a>
             </li>
             <li class="navbar-mobile-item">
@@ -134,20 +134,7 @@
 					title="網頁主要內容資料區">:::</a>					
 				<!--內容區塊開始-->
 <main class="main bg-white">
-	<div class="carousel slide main-banner" data-bs-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./assets/images/banner1.jpg" class="d-block w-100" alt="高雄市民服務平台 banner">
-			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/banner2.jpg" class="d-block w-100" alt="高雄市民服務平台 banner">
-			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/banner3.jpg" class="d-block w-100" alt="高雄市民服務平台 banner">
-			</div>
-		</div>
-	</div>
-	<div class="bg-primary-light py-3">
+	<div class="bg-primary-soft-light py-3">
 		<div class="input-search container flex-column flex-md-row">
 			<label for="search" class="flex-shrink-0 mb-2 mb-md-0 me-2">請問您需要什麼服務？</label>
 			<div class="input-group">
@@ -159,172 +146,306 @@
 			</div>
 		</div>
 	</div>
-	<div class="keywords container py-3">
-		<p class="keywords-title me-3 mb-3 mb-md-0">熱門關鍵字</p>
-		<ul class="keywords-list">
-			<li class="keywords-item"><a href="#" class="keywords-link" title="戶籍謄本">戶籍謄本</a></li>
-			<li class="keywords-item"><a href="#" class="keywords-link" title="好孕">好孕</a></li>
-			<li class="keywords-item"><a href="#" class="keywords-link" title="長照">長照</a></li>
-			<li class="keywords-item"><a href="#" class="keywords-link" title="地價稅">地價稅</a></li>
-			<li class="keywords-item"><a href="#" class="keywords-link d-none d-md-block" title="房屋稅">房屋稅</a></li>
-			<li class="keywords-item"><a href="#" class="keywords-link" title="戶籍謄本">戶籍謄本</a></li>
-		</ul>
-		<a href="filter.html" class="keywords-btn btn btn-primary rounded-pill d-flex py-1 py-md-2 px-md-3 ms-auto"
-			title="進階搜尋">
-			<img src="./assets/images/ic-filter.svg" alt="進階搜尋 icon" class="me-1">進階搜尋
-		</a>
+	<div class="border-bottom border-primary-soft">
+		<div class="keywords container py-3">
+			<p class="keywords-title me-3 mb-3 mb-md-0">熱門關鍵字</p>
+			<ul class="keywords-list">
+				<li class="keywords-item"><a href="#" class="keywords-link" title="戶籍謄本">戶籍謄本</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link" title="好孕">好孕</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link" title="長照">長照</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link" title="地價稅">地價稅</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link d-none d-md-block" title="房屋稅">房屋稅</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link" title="戶籍謄本">戶籍謄本</a></li>
+			</ul>
+			<a href="filter.html" class="keywords-btn btn btn-primary rounded-pill d-flex py-1 py-md-2 px-md-3 ms-auto"
+				title="進階搜尋">
+				<img src="./assets/images/ic-filter.svg" alt="進階搜尋 icon" class="me-1">進階搜尋
+			</a>
+		</div>
 	</div>
 
-	<section class="section py-4 py-lg-5 overflow-x-hidden mb-0" data-bg="hot">
+	<section class="section py-4 py-lg-5 overflow-x-hidden mb-0">
 		<div class="container">
 			<h2 class="main-title mb-3 mb-md-4">
 				熱門服務
 			</h2>
-			<div class="theme-card g-4 js-theme-card">
-				<div>
-					<a href="#" class="theme-card-item" title="高雄市發展遲緩兒童早期療育費用補助">
-						<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
-						<p>高雄市發展遲緩兒童<br>早期療育費用補助</p>
-						<span>社會局兒童福利服務中心</span>
-					</a>
-				</div>
-				<div>
-					<a href="#" class="theme-card-item" title="《勞方》申請勞資爭議調解">
-						<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
-						<p>《勞方》申請勞資爭議調解</p>
-						<span>勞工局</span>
-					</a>
-				</div>
-				<div>
-					<a href="#" class="theme-card-item" title="交通違規罰鍰線上退款申請">
-						<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
-						<p>交通違規罰鍰線上退款申請</p>
-						<span>交通局</span>
-					</a>
-				</div>
-				<div>
-					<a href="#" class="theme-card-item" title="民生醫院高級健檢(免驗證)">
-						<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
-						<p>民生醫院高級健檢(免驗證)</p>
-						<span>民生醫院</span>
-					</a>
-				</div>
-				<div>
-					<a href="#" class="theme-card-item" title="身心障礙者專用停車位識別證申請">
-						<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
-						<p>身心障礙者專用停車位<br>識別證申請</p>
-						<span>社會局</span>
-					</a>
-				</div>
-				<div>
-					<a href="#" class="theme-card-item" title="行車事故鑑定(無法鑑定)(撤案)退款申請">
-						<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
-						<p>行車事故鑑定<br>(無法鑑定)(撤案)退款申請</p>
-						<span>交通局車輛行車事故鑑定委員會</span>
-					</a>
-				</div>
-				</ul>
+		</div>
+		<div class="theme-card g-4 js-theme-card">
+			<div>
+				<a href="#" class="theme-card-item" title="高雄市發展遲緩兒童早期療育費用補助">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>高雄市發展遲緩兒童<br>早期療育費用補助</p>
+					<span>社會局兒童福利服務中心</span>
+				</a>
 			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="《勞方》申請勞資爭議調解">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>《勞方》申請勞資爭議調解</p>
+					<span>勞工局</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="交通違規罰鍰線上退款申請">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>交通違規罰鍰線上退款申請</p>
+					<span>交通局</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="民生醫院高級健檢(免驗證)">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>民生醫院高級健檢(免驗證)</p>
+					<span>民生醫院</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="身心障礙者專用停車位識別證申請">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>身心障礙者專用停車位<br>識別證申請</p>
+					<span>社會局</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="行車事故鑑定(無法鑑定)(撤案)退款申請">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>行車事故鑑定<br>(無法鑑定)(撤案)退款申請</p>
+					<span>交通局車輛行車事故鑑定委員會</span>
+				</a>
+			</div>
+			</ul>
+		</div>
 	</section>
-	<div class="bg-primary-xlight py-5">
+	<div class="bg-primary-soft-xlight py-5" id="service">
+		<section class="section">
+			<div class="container">
+				<h2 class="main-title mb-3 mb-md-4">
+					申辦服務
+				</h2>
+				<div class="row gx-3 gx-md-4 mb-3" role="tablist">
+					<div class="col-4 mb-2">
+						<button class="tab-menu-btn py-lg-3 active" data-bs-toggle="pill" data-bs-target="#combo"
+							type="button" role="tab" title="依服務別">
+							<img src="./assets/images/ic-service-default.svg" alt="icon" class="me-md-2">依服務別
+						</button>
+					</div>
+					<div class="col-4 mb-2">
+						<button class="tab-menu-btn py-lg-3" data-bs-toggle="pill" data-bs-target="#affairs" type="button"
+							role="tab" title="依身分別">
+							<img src="./assets/images/ic-id-default.svg" alt="icon" class="me-md-2">依身分別
+						</button>
+					</div>
+					<div class="col-4 mb-2">
+						<button class="tab-menu-btn py-lg-3" data-bs-toggle="pill" data-bs-target="#affairs" type="button"
+							role="tab" title="依機關別">
+							<img src="./assets/images/ic-office-default.svg" alt="icon" class="me-md-2">依機關別
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="tab-content w-100">
+				<div class="tab-pane fade show active" id="combo" role="tabpanel" tabindex="0">
+					<div class="slide-list js-choose-service">
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-unit-add-online.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
 		<div class="container">
-			<div class="row gx-xl-6">
-				<div class="col-lg-6 section">
+			<section class="section row gx-xl-6">
+				<div class="col-lg-12">
 					<section>
 						<h2 class="main-title mb-3 mb-md-4">
-							申辦服務
-						</h2>
-						<ul class="row main-list g-3 g-md-4" data-con="multi-btn">
-							<li class="col-12">
-								<a href="apply-service.html" class="btn main-list-btn" title="依服務別">
-									<img src="./assets/images/ic-service.svg" alt="依服務別icon">
-									<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
-										<h3 class="main-list-btn-title">依服務別</h3>
-										<p>生活及安全品質、購屋及遷徙、戶政服務、生育保健</p>
-									</div>
-								</a>
-							</li>
-							<li class="col-12">
-								<a href="#" class="btn main-list-btn" title="依身份別">
-									<img src="./assets/images/ic-id.svg" alt="依身份別icon">
-									<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
-										<h3 class="main-list-btn-title">依身份別</h3>
-										<p>生活及安全品質、購屋及遷徙、戶政服務、生育保健</p>
-									</div>
-								</a>
-							</li>
-							<li class="col-12">
-								<a href="#" class="btn main-list-btn" title="依機關別">
-									<img src="./assets/images/ic-office.svg" alt="依機關別icon">
-									<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
-										<h3 class="main-list-btn-title">依機關別</h3>
-										<p>生活及安全品質、購屋及遷徙、戶政服務、生育保健</p>
-									</div>
-								</a>
-							</li>
-						</ul>
-					</section>
-				</div>
-				<div class="col-lg-6 section">
-					<section class="d-flex flex-column h-100">
-						<h2 class="main-title mb-3 mb-md-4 flex-shrink-0">
 							我有話想說
 						</h2>
-						<ul class="row main-list g-3 g-md-4 h-100" data-size="lg">
-							<li class="col-lg-6">
-								<a href="#" class="btn main-list-btn h-100" title="市長信箱">
-									<img src="./assets/images/ic-mail.svg" alt="市長信箱icon" class="mb-lg-3">
-									<h3 class="main-list-btn-title">市長信箱</h3>
+						<ul class="row main-list g-3 g-md-4" data-con="multi-btn">
+							<li class="col-md-6">
+								<a href="apply-service.html" class="btn main-list-btn" title="市長信箱">
+									<img src="./assets/images/ic-mail.svg" alt="市長信箱icon">
+									<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+										<h3 class="main-list-btn-title">市長信箱</h3>
+									</div>
 								</a>
 							</li>
-							<li class="col-lg-6">
-								<a href="#" class="btn main-list-btn h-100" title="報修派工">
-									<img src="./assets/images/ic-repair.svg" alt="報修派工icon" class="mb-lg-3">
-									<h3 class="main-list-btn-title">報修派工</h3>
+							<li class="col-md-6">
+								<a href="#" class="btn main-list-btn" title="報修派工">
+									<img src="./assets/images/ic-repair.svg" alt="報修派工icon">
+									<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+										<h3 class="main-list-btn-title">報修派工</h3>
+									</div>
 								</a>
 							</li>
 						</ul>
 					</section>
 				</div>
-			</div>
+			</section>
 			<section class="section">
 				<h2 class="main-title mb-3 mb-md-4">
 					其他服務
 				</h2>
-				<ul class="row btn-list g-3 g-md-4">
-					<li class="col-lg-6">
-						<a href="reservation-menu.html" title="線上預約" class="btn-list-btn">
+				<ul class="row main-list g-3 g-md-4" data-con="multi-btn">
+					<li class="col-md-6">
+						<a href="reservation-menu.html" class="btn main-list-btn" title="線上預約">
 							<img src="./assets/images/ic-reservaion.svg" alt="線上預約icon">
-							<p>線上預約</p>
+							<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+								<h3 class="main-list-btn-title">線上預約</h3>
+							</div>
 						</a>
 					</li>
-					<li class="col-lg-6">
-						<a href="#" title="MyData 查詢紀錄" class="btn-list-btn">
+					<li class="col-md-6">
+						<a href="#" class="btn main-list-btn" title="MyData 查詢紀錄">
 							<img src="./assets/images/ic-record.svg" alt="MyData 查詢紀錄icon">
-							<p>MyData 查詢紀錄</p>
-						</a>
-					</li>
-					<li class="col-lg-4">
-						<a href="reservation-menu.html" title="線上預約" class="btn-list-btn">
-							<img src="./assets/images/ic-reservaion.svg" alt="線上預約icon">
-							<p>線上預約</p>
-						</a>
-					</li>
-					<li class="col-lg-4">
-						<a href="#" title="MyData 查詢紀錄" class="btn-list-btn">
-							<img src="./assets/images/ic-record.svg" alt="MyData 查詢紀錄icon">
-							<p>MyData 查詢紀錄</p>
-						</a>
-					</li>
-					<li class="col-lg-4">
-						<a href="#" title="府內服務列表" class="btn-list-btn flex-row">
-							<img src="./assets/images/ic-list.svg" alt="府內服務列表icon">
-							<p>府內服務列表</p>
+							<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+								<h3 class="main-list-btn-title">MyData 查詢紀錄</h3>
+							</div>
 						</a>
 					</li>
 				</ul>
 			</section>
-
 			<section class="section">
 				<h2 class="main-title mb-0">
 					活動訊息
@@ -361,58 +482,71 @@
         data-bs-target="#footer-menu" title="點選展開">
         <div class="footer-toggler-icon">點選展開</div>
     </button>
-    <div class="collapse bg-primary-dark" id="footer-menu">
+    <div class="collapse bg-white" id="footer-menu">
         <div class="card card-body">
             <div class="container">
-                <div class="row py-5">
-                    <div class="col">
+                <div class="row gx-2 pt-4">
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <p>申辦服務</p>
+                                <a href="#" title="熱門服務">熱門服務</a>
                             </li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="線上申辦">線上申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="下載資料">下載資料</a></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <p>申辦服務</p>
+                                <a href="#" title="申辦服務">申辦服務</a>
                             </li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="線上申辦">線上申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="下載資料">下載資料</a></li>
+                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="依服務別">依服務別</a></li>
+                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="依身分別">依身分別</a></li>
+                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="依機關別">依機關別</a></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <p>申辦服務</p>
+                                <a href="#" title="我有話想說">我有話想說</a>
                             </li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="線上申辦">線上申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="下載資料">下載資料</a></li>
+                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="市長信箱">市長信箱</a></li>
+                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="報修派工">報修派工</a></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <p>申辦服務</p>
+                                <a href="#" title="其他服務">其他服務</a>
                             </li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="線上申辦">線上申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="下載資料">下載資料</a></li>
+                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="線上預約">線上預約</a></li>
+                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="Mydata查詢紀錄">Mydata查詢紀錄</a></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <p>申辦服務</p>
+                                <a href="#" title="活動訊息">活動訊息</a>
                             </li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="臨櫃申辦">臨櫃申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="線上申辦">線上申辦</a></li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="下載資料">下載資料</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#" title="案件查詢">案件查詢</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#" class="高雄數位市民">高雄數位市民</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#" class="常見問題">常見問題</p>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -468,7 +602,7 @@
 
 		</div>
 		<!-- SCRIPTS -->
-<script src="assets/js/jquery-1.11.0.min.js"></script>
+<script src="assets/js/jquery-3.7.1.min.js"></script>
 <script src='assets/js/jquery-ui.min.js'></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/slick.js"></script>
@@ -484,7 +618,7 @@
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 3,
-            rows: 2,
+            rows: 1,
             responsive: [
                 {
                     breakpoint: 1200,
@@ -495,22 +629,23 @@
                     }
                 },
                 {
-                    breakpoint: 768,
+                    breakpoint: 992,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         rows: 1,
                         dots: true,
+                        arrows: false,
                     }
                 }
             ]
         });
-        //內頁輪播
+        //申辦服務輪播
         $('.js-choose-service').slick({
             speed: 300,
             slidesToShow: 4,
             slidesToScroll: 4,
-            rows: 3,
+            rows: 2,
             dots: true,
             responsive: [
                 {
@@ -526,7 +661,7 @@
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,
-                        rows: 4,
+                        rows: 3,
                         dots: true
                     }
                 }
