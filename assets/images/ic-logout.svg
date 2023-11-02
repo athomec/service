@@ -1,0 +1,8 @@
+<svg id="ic-logout" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Group_266" data-name="Group 266">
+    <path id="Path_121" data-name="Path 121" d="M0,0H22V22H0Z" fill="none"/>
+  </g>
+  <g id="Group_267" data-name="Group 267" transform="translate(3.195 3.195)">
+    <path id="Path_122" data-name="Path 122" d="M15.14,7.336,13.918,8.559l1.37,1.379H8.2v1.734h7.085l-1.37,1.37,1.223,1.231L18.609,10.8ZM4.734,4.734H10.8V3H4.734A1.739,1.739,0,0,0,3,4.734v12.14a1.739,1.739,0,0,0,1.734,1.734H10.8V16.875H4.734Z" transform="translate(-3 -3)" fill="#999"/>
+  </g>
+</svg>

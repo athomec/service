@@ -45,7 +45,7 @@
                 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="case-check.html" title="案件查詢">案件查詢</a>
+                        <a class="nav-link" href="case-check-member.html" title="案件查詢">案件查詢</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" title="高雄數位市民">高雄數位市民</a>
@@ -76,7 +76,7 @@
                         </a>
                         <!--登入選單-->
                         <div id="top-member-login" class="top-member-dropdown collapse" style="width: 140px;">
-                            <ul class="py-2 px-lg-3">
+                            <ul class="py-2 px-lg-3 d-none d-xl-flex">
                                 <li class="top-member-item">
                                     <a href="login.html" class="top-member-link" title="會員登入">
                                         <img src="./assets/images/ic-login.svg" alt="會員登入icon" class="me-1">會員登入
@@ -91,7 +91,7 @@
                                 <div class="d-flex pb-3 pb-lg-1 mb-lg-1 justify-content-center text-gray-600">
                                     <img src="./assets/images/ic-K.svg" alt="高雄幣" class="me-1">高雄幣 <span class="text-primary ps-2">120</span>
                                 </div>
-                                <a href="#" title="登出" class="top-member-btn border-top link-gray-600 fw-bold pt-1">登出</a>
+                                <a href="#" title="登出" class="d-none d-xl-flex top-member-btn border-top link-gray-600 fw-bold pt-1">登出</a>
                             </div>
                         </div>
                     </li>
@@ -112,7 +112,7 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="reservation.html" title="線上預約" class="navbar-mobile-link ">
+                <a href="reservation-menu.html" title="線上預約" class="navbar-mobile-link ">
                     <img src="./assets/images/ic-online.svg" alt="線上預約icon"> 線上預約
                 </a>
             </li>
@@ -122,8 +122,11 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="login.html" title="登入" class="navbar-mobile-link ">
+                <a href="login.html" title="登入" class="navbar-mobile-link d-none">
                     <img src="./assets/images/ic-user-default.svg" alt="登入icon"> 登入
+                </a>
+                <a href="index.html" title="登出" class="navbar-mobile-link ">
+                    <img src="./assets/images/ic-logout.svg" alt="登入icon"> 登出
                 </a>
             </li>
         </ul>
@@ -389,7 +392,7 @@
                             <li class="footer-list-item">
                                 <a href="#" title="其他服務">其他服務</a>
                             </li>
-                            <li class="footer-list-item"><a href="#" class="footer-list-link" title="線上預約">線上預約</a></li>
+                            <li class="footer-list-item"><a href="reservation-menu.html" class="footer-list-link" title="線上預約">線上預約</a></li>
                             <li class="footer-list-item"><a href="#" class="footer-list-link" title="Mydata查詢紀錄">Mydata查詢紀錄</a></li>
                         </ul>
                     </div>
@@ -403,7 +406,7 @@
                     <div class="col-sm-4 col-md-3 col-lg-2 col-xl mb-4">
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <a href="#" title="案件查詢">案件查詢</a>
+                                <a href="case-check-member.html" title="案件查詢">案件查詢</a>
                             </li>
                         </ul>
                     </div>
@@ -442,11 +445,11 @@
                         </li>
                         <li class="footer-info-item mb-2">
                             <button class="btn footer-info-link rounded-pill" title="隱私權及資訊安全政策">
-                                隱私權及資訊安全政策
+                                政府網站資料開放宣告
                             </button>
                         </li>
                         <li class="footer-info-item mb-2">
-                            <button class="btn footer-info-link rounded-pill" title="市府員工入口">
+                            <button class="btn footer-info-link rounded-pill" title="市府員工入口" onclick="location.href='index-member.html'">
                                 市府員工入口
                             </button>
                         </li>

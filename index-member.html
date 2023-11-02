@@ -71,7 +71,7 @@
                         </ul>
                     </li>
                     <li class="nav-item ps-lg-2 ps-xl-4 flex-column flex-lg-row">
-                        <a href="#top-member-logout" title="會員專區" class="top-member d-none d-lg-block" data-bs-toggle="collapse">
+                        <a href="#top-member-login" title="會員專區" class="top-member d-none d-lg-block" data-bs-toggle="collapse">
                             <img src="./assets/images/ic-user.svg" alt="會員專區">
                         </a>
                         <!--登入選單-->
@@ -102,7 +102,7 @@
     <nav class="navbar-mobile d-block d-lg-none">
         <ul class="navbar-mobile-list">
             <li class="navbar-mobile-item">
-                <a href="index.html" title="首頁" class="navbar-mobile-link ">
+                <a href="index.html" title="首頁" class="navbar-mobile-link active">
                     <img src="./assets/images/ic-home.svg" alt="首頁icon"> 首頁
                 </a>
             </li>
@@ -112,7 +112,7 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="reservation-menu.html" title="線上預約" class="navbar-mobile-link active">
+                <a href="reservation-menu.html" title="線上預約" class="navbar-mobile-link ">
                     <img src="./assets/images/ic-online.svg" alt="線上預約icon"> 線上預約
                 </a>
             </li>
@@ -122,10 +122,10 @@
                 </a>
             </li>
             <li class="navbar-mobile-item">
-                <a href="login.html" title="登入" class="navbar-mobile-link d-none">
+                <a href="login.html" title="登入" class="navbar-mobile-link ">
                     <img src="./assets/images/ic-user-default.svg" alt="登入icon"> 登入
                 </a>
-                <a href="index.html" title="登出" class="navbar-mobile-link ">
+                <a href="index.html" title="登出" class="navbar-mobile-link d-none">
                     <img src="./assets/images/ic-logout.svg" alt="登入icon"> 登出
                 </a>
             </li>
@@ -135,158 +135,352 @@
 <!--主選單結束-->
 				<a href="#Accesskey_C" class="key position-absolute" id="Accesskey_C" accesskey="C"
 					title="網頁主要內容資料區">:::</a>					
-				<main class="main bg-gray-100 pb-1">
-    <div class="main-header-wrapper pt-4 pt-md-5 pb-md-3 mb-4 mb-md-5">
-        <div class="main-header container">
-            <h2 class="main-top"><img src="./assets/images/ic-event.svg" alt="icon" class="me-2 me-lg-3"> 我要預約
-            </h2>
-            <ol class="breadcrumb ms-auto">
-                <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-link" title="回首頁">回首頁</a></li>
-                <li class="breadcrumb-item active" aria-current="page">我要預約</li>
-            </ol>
-        </div>
-    </div>
+				<!--內容區塊開始-->
+<main class="main bg-white">
+	<div class="bg-primary-soft-light py-3">
+		<div class="input-search container flex-column flex-md-row">
+			<label for="search" class="flex-shrink-0 mb-2 mb-md-0 me-2">請問您需要什麼服務？</label>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="請輸入關鍵字" title="請輸入關鍵字">
+				<button class="btn btn-outline-secondary" type="button" id="search" title="搜尋"
+					onclick="location.href='result.html'">
+					<img src="./assets/images/ic-search.svg" accesskey="S" alt="搜尋 icon">
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="border-bottom border-primary-soft">
+		<div class="keywords container py-3">
+			<p class="keywords-title me-3 mb-3 mb-md-0">熱門關鍵字</p>
+			<ul class="keywords-list">
+				<li class="keywords-item"><a href="#" class="keywords-link" title="戶籍謄本">戶籍謄本</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link" title="好孕">好孕</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link" title="長照">長照</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link" title="地價稅">地價稅</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link d-none d-md-block" title="房屋稅">房屋稅</a></li>
+				<li class="keywords-item"><a href="#" class="keywords-link" title="戶籍謄本">戶籍謄本</a></li>
+			</ul>
+			<a href="filter.html" class="keywords-btn btn btn-primary rounded-pill d-flex py-1 py-md-2 px-md-3 ms-auto"
+				title="進階搜尋">
+				<img src="./assets/images/ic-filter.svg" alt="進階搜尋 icon" class="me-1">進階搜尋
+			</a>
+		</div>
+	</div>
 
-    <div class="container">
-        <div class="section bg-white rounded-3 py-3 py-md-4 px-3 px-sm-4">
-            <h3 class="sub-title mb-2 border-0 text-primary"><img src="./assets/images/ic-reservate.svg" alt="icon">
-                臨櫃預約</h3>
-            <div class="bg-primary-xlight rounded px-4 px-md-5 px-xl-4 py-3 py-md-4 mb-3 mb-md-5">
-                <div class="link-card-list align-items-stretch g-3 js-link-card-list">
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
+	<section class="section py-4 py-lg-5 overflow-x-hidden mb-0">
+		<div class="container">
+			<h2 class="main-title mb-3 mb-md-4">
+				熱門服務
+			</h2>
+		</div>
+		<div class="theme-card g-4 js-theme-card">
+			<div>
+				<a href="#" class="theme-card-item" title="高雄市發展遲緩兒童早期療育費用補助">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>高雄市發展遲緩兒童<br>早期療育費用補助</p>
+					<span>社會局兒童福利服務中心</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="《勞方》申請勞資爭議調解">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>《勞方》申請勞資爭議調解</p>
+					<span>勞工局</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="交通違規罰鍰線上退款申請">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>交通違規罰鍰線上退款申請</p>
+					<span>交通局</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="民生醫院高級健檢(免驗證)">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>民生醫院高級健檢(免驗證)</p>
+					<span>民生醫院</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="身心障礙者專用停車位識別證申請">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>身心障礙者專用停車位<br>識別證申請</p>
+					<span>社會局</span>
+				</a>
+			</div>
+			<div>
+				<a href="#" class="theme-card-item" title="行車事故鑑定(無法鑑定)(撤案)退款申請">
+					<div class="theme-card-tag"><img src="./assets/images/ic-star.svg" alt="icon"></div>
+					<p>行車事故鑑定<br>(無法鑑定)(撤案)退款申請</p>
+					<span>交通局車輛行車事故鑑定委員會</span>
+				</a>
+			</div>
+			</ul>
+		</div>
+	</section>
+	<div class="bg-primary-soft-xlight py-5" id="service">
+		<section class="section">
+			<div class="container">
+				<h2 class="main-title mb-3 mb-md-4">
+					申辦服務
+				</h2>
+				<div class="row gx-3 gx-md-4 mb-3" role="tablist">
+					<div class="col-4 mb-2">
+						<button class="tab-menu-btn py-lg-3 active" data-bs-toggle="pill" data-bs-target="#combo"
+							type="button" role="tab" title="依服務別">
+							<img src="./assets/images/ic-service-default.svg" alt="icon" class="me-md-2">依服務別
+						</button>
+					</div>
+					<div class="col-4 mb-2">
+						<button class="tab-menu-btn py-lg-3" data-bs-toggle="pill" data-bs-target="#affairs" type="button"
+							role="tab" title="依身分別">
+							<img src="./assets/images/ic-id-default.svg" alt="icon" class="me-md-2">依身分別
+						</button>
+					</div>
+					<div class="col-4 mb-2">
+						<button class="tab-menu-btn py-lg-3" data-bs-toggle="pill" data-bs-target="#affairs" type="button"
+							role="tab" title="依機關別">
+							<img src="./assets/images/ic-office-default.svg" alt="icon" class="me-md-2">依機關別
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="tab-content w-100">
+				<div class="tab-pane fade show active" id="combo" role="tabpanel" tabindex="0">
+					<div class="slide-list js-choose-service">
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-unit-add-online.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+						<div>
+							<a href="apply-service-list.html" title="生活安全<br>及品質" class="slide-list-btn">
+								<span>45</span>
+								<p>生活安全<br>及品質</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<div class="container">
+			<section class="section row gx-xl-6">
+				<div class="col-lg-12">
+					<section>
+						<h2 class="main-title mb-3 mb-md-4">
+							我有話想說
+						</h2>
+						<ul class="row main-list g-3 g-md-4" data-con="multi-btn">
+							<li class="col-md-6">
+								<a href="#" class="btn main-list-btn" title="市長信箱">
+									<img src="./assets/images/ic-mail.svg" alt="市長信箱icon">
+									<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+										<h3 class="main-list-btn-title">市長信箱</h3>
+									</div>
+								</a>
+							</li>
+							<li class="col-md-6">
+								<a href="#" class="btn main-list-btn" title="報修派工">
+									<img src="./assets/images/ic-repair.svg" alt="報修派工icon">
+									<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+										<h3 class="main-list-btn-title">報修派工</h3>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+			<section class="section">
+				<h2 class="main-title mb-3 mb-md-4">
+					其他服務
+				</h2>
+				<ul class="row main-list g-3 g-md-4" data-con="multi-btn">
+					<li class="col-md-4">
+						<a href="reservation-menu.html" class="btn main-list-btn" title="線上預約">
+							<img src="./assets/images/ic-reservaion.svg" alt="線上預約icon">
+							<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+								<h3 class="main-list-btn-title">線上預約</h3>
+							</div>
+						</a>
+					</li>
+					<li class="col-md-4">
+						<a href="#" class="btn main-list-btn" title="MyData 查詢紀錄">
+							<img src="./assets/images/ic-record.svg" alt="MyData 查詢紀錄icon">
+							<div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+								<h3 class="main-list-btn-title">MyData <br>查詢紀錄</h3>
+							</div>
+						</a>
+					</li>
+                    <li class="col-md-4">
+                        <a href="#" class="btn main-list-btn" title="府內服務列表">
+                            <img src="./assets/images/ic-list.svg" alt="府內服務列表">
+                            <div class="border-start ms-3 ms-lg-4 ps-3 ps-lg-4">
+                                <h3 class="main-list-btn-title">府內服務列表</h3>
+                            </div>
                         </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-reservate.svg"
-                                    alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <h3 class="sub-title mb-2 border-0 text-primary"><img src="./assets/images/ic-spot.svg" alt="icon"> 場地租借
-            </h3>
-            <div class="bg-primary-xlight rounded px-4 px-md-5 px-xl-4 py-3 py-md-4 mb-3 mb-md-5">
-                <div class="link-card-list align-items-stretch g-3 js-link-card-list">
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-spot.svg" alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-spot.svg" alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-spot.svg" alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-spot.svg" alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-spot.svg" alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-spot.svg" alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <h3 class="sub-title mb-2 border-0 text-primary"><img src="./assets/images/ic-people.svg" alt="icon"> 活動預約
-            </h3>
-            <div class="bg-primary-xlight rounded px-4 px-md-5 px-xl-4 py-3 py-md-4 mb-5">
-                <div class="link-card-list align-items-stretch g-3 js-link-card-list">
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-people.svg" alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                    <div class="link-card-list-item">
-                        <a href="reservation-calendar.html" class="link-card-list-link" title="夜間法律諮詢預約">
-                            <p class="link-card-list-info mb-2"><img src="./assets/images/ic-people.svg" alt="icon">研究發展考核委員會</p>
-                            <h4 class="link-card-list-title">夜間法律諮詢預約</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    </li>
+				</ul>
+			</section>
+			<section class="section">
+				<h2 class="main-title mb-0">
+					活動訊息
+				</h2>
+				<ul class="tag-list px-3 px-md-4 py-1">
+					<li class="tag-list-item">
+						<a href="news.html" class="tag-list-link" title="高雄岡山625戶智慧綠建築社宅預計115年完工實現居住正義">
+							<p class="w-100">高雄岡山625戶智慧綠建築社宅預計115年完工實現居住正義</p>
+						</a>
+					</li>
+					<li class="tag-list-item">
+						<a href="news.html" class="tag-list-link" title="因系統維護於112年6月12日上午11:00至12:00本網站進行程式更新">
+							<p class="w-100">因系統維護於112年6月12日上午11:00至12:00本網站進行程式更新</p>
+						</a>
+					</li>
+					<li class="tag-list-item">
+						<a href="news.html" class="tag-list-link" title="高雄岡山625戶智慧綠建築社宅預計115年完工實現居住正義">
+							<p class="w-100">高雄岡山625戶智慧綠建築社宅預計115年完工實現居住正義</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
 </main>
 					<!--footer開始-->
 <footer class="footer">
