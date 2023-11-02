@@ -18431,6 +18431,10 @@ input[readonly] {
           display: inline-block;
           color: #387F91;
           font-weight: 500; } }
+  .table-rwd a {
+    color: #026EAE; }
+    .table-rwd a:hover {
+      opacity: 0.8; }
 
 .table-group {
   display: -webkit-box;
