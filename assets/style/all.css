@@ -16643,6 +16643,31 @@ input::placeholder, textarea::placeholder {
     input::placeholder, textarea::placeholder {
       font-size: 0.9rem !important; } }
 
+/*無障礙設定*/
+#gotocenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  position: fixed;
+  left: 10px;
+  top: -100px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background: #387F91;
+  color: #fff;
+  font-weight: 700;
+  z-index: 2000;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  font-size: 0.9rem; }
+  #gotocenter:focus {
+    top: 0; }
+
 .form-check-input:checked[type="radio"] {
   background: url("../images/radio-check.svg") no-repeat center;
   background-size: 8px; }
